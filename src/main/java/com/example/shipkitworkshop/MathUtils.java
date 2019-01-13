@@ -22,7 +22,7 @@ public class MathUtils {
      * @param c a width if 3th side
      * @return true if you can build triangle, false otherwise.
      */
-    public static boolean isTriangle(double a, double b, double c) {
+    public static boolean isTriangle(float a, float b, float c) {
         return a + b > c
                 && a + c > b
                 && b + c > a;
