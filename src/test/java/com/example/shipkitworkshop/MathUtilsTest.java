@@ -10,6 +10,7 @@ public class MathUtilsTest {
     @Test
     public void shouldCreateTriangle() {
         assertTrue(MathUtils.isTriangle(3, 4, 5));
+        assertTrue(MathUtils.isTriangle(5, 6, 7));
     }
 
     @Test
