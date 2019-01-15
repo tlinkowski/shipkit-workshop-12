@@ -1,5 +1,8 @@
 package com.example.shipkitworkshop;
 
+/**
+ * This class is for math operations.
+ */
 public class MathUtils {
 
     /**
