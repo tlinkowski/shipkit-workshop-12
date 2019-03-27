@@ -13,4 +13,11 @@ public class MathUtils {
                 && a + c > b
                 && b + c > a;
     }
+
+    public static boolean isTriangle(float a, float b, float c) {
+        return a + b > c
+                && a + c > b
+                && b + c > a;
+    }
+
 }
