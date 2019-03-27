@@ -7,4 +7,10 @@ public class MathUtils {
                 && a + c > b
                 && b + c > a;
     }
+
+    public static boolean isTriangle(long a, long b, long c) {
+        return a + b > c
+                && a + c > b
+                && b + c > a;
+    }
 }
